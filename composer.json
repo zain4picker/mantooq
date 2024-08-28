@@ -22,10 +22,8 @@
 		"email": "contact@picker.sd"
 		}
 	],
-  "require": {
-    "zain4picker/mantooq": "*"
-},
-"autoload": {
+  
+  "autoload": {
       "psr-4": {
           "Picker\\ArabicNumbers\\": "src/"
       }
@@ -43,6 +41,6 @@
       }
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true
 }
