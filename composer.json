@@ -22,7 +22,10 @@
 		"email": "contact@picker.sd"
 		}
 	],
-  "autoload": {
+  "require": {
+    "zain4picker/mantooq": "*"
+},
+"autoload": {
       "psr-4": {
           "Picker\\ArabicNumbers\\": "src/"
       }
