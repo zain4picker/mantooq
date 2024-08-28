@@ -182,7 +182,7 @@ class ArabicNumbers
      * @author  2020 Mohamed Elkoumi <mohammedelkoumi@gmail.com>
      * @copyright inspired from The Great 💗 Khaled Al-Sham'aa <khaled@ar-php.org>
      */
-    public function TafqeetNumber($number)
+    public function MantooqNumber($number)
     {
         $number = is_string($number) ? $this->EnglishDigits($number) : $number;
 
@@ -260,7 +260,7 @@ class ArabicNumbers
      * @author  2020 Mohamed Elkoumi <mohammedelkoumi@gmail.com>
      * @copyright inspired from The Great 💗 Khaled Al-Sham'aa <khaled@ar-php.org>
      */
-    public function TafqeetMoney($number, $currency = 'sar', $lang = 'ar')
+    public function MantooqMoney($number, $currency = 'sar', $lang = 'ar')
     {
         //dd($number, $currency, $lang);
         $number = is_string($number) ? $this->EnglishDigits($number) : $number;

@@ -40,12 +40,12 @@ If you want to except any field from transforming request, Just add the fields y
 ![Arabic Numbers](imags/numbers.png)
 
 ##   منطوق المبالغ المالية باللغة العربية الفصحى مثل 123 => { مئة و ثلاثة و عشرون ريالًا فقط لا غير } 
-You can simply get Tafqeet of The int Money amount directly in Arabic idioms 
+You can simply get Mantooq of The int Money amount directly in Arabic idioms 
 ```php
     use Picker\ArabicNumbers\Numbers;
 
     $number = 64.56;
-    Numbers::TafqeetMoney($number); //It will Give SAR by default
+    Numbers::MantooqMoney($number); //It will Give SAR by default
 
     // RESULT {  أربعة و ستون ريالًا و ست و خمسون هللة فقط لا غير }
 
@@ -54,23 +54,23 @@ You can simply get Tafqeet of The int Money amount directly in Arabic idioms
 
 
     $value = 64.56;
-    Numbers::TafqeetMoney($value,'EGP'); //You can pass $currency as the second @param
+    Numbers::MantooqMoney($value,'EGP'); //You can pass $currency as the second @param
 
     // RESULT {  أربعة و ستون جنيهًا و ست و خمسون قرش فقط لا غير }
 ```
 
 ##   منطوق الأرقام باللغة العربية الفصحى مثل 64 => { أربعة و ستون } 
-You can simply get Tafqeet of The int Value directly in Arabic idioms 
+You can simply get Mantooq of The int Value directly in Arabic idioms 
 ```php
     use Picker\ArabicNumbers\Numbers;
 
     $number = 64;
-    Numbers::TafqeetNumber($number);
+    Numbers::MantooqNumber($number);
 
     // RESULT {  أربعة و ستون }
 ```
 ## إستخراج الأرقام من المنطوق باللغة العربية للأرقام وليس للمبالغ 😉 مثل { أربعة و ستون } => 64
-You can simply Reverse Tafqeet in Arabic idioms to The int Number directly 
+You can simply Reverse Mantooq in Arabic idioms to The int Number directly 
 ```php
     use Picker\ArabicNumbers\Numbers;
 

@@ -11,9 +11,9 @@ class Numbers
      * @return string The Arabic idiom that spells inserted number { تتفقيط الأرقام بالعربية الفصحى }
      * @author  2020 Mohamed Elkoumi <mohammedelkoumi@gmail.com>
      */
-    public static function TafqeetNumber($number)
+    public static function MantooqNumber($number)
     {
-        return (new ArabicNumbers())->TafqeetNumber($number);
+        return (new ArabicNumbers())->MantooqNumber($number);
     }
 
     /**
@@ -23,9 +23,9 @@ class Numbers
      * @return string The Arabic idiom that spells inserted number as money
      * @author  2020 Mohamed Elkoumi <mohammedelkoumi@gmail.com>
      */
-    public static function TafqeetMoney($number, $currency = 'sar', $lang = 'ar')
+    public static function MantooqMoney($number, $currency = 'sar', $lang = 'ar')
     {
-        return (new ArabicNumbers())->TafqeetMoney($number, $currency, $lang);
+        return (new ArabicNumbers())->MantooqMoney($number, $currency, $lang);
     }
 
     /**
