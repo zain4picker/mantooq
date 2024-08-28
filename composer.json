@@ -33,7 +33,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Picker\\ArabicNumbers\\rabicNumbersServiceProvider"
+        "Picker\\ArabicNumbers\\ArabicNumbersServiceProvider"
       ],
       "aliases": {
         "Numbers": "Picker\\ArabicNumbers\\Numbers"
