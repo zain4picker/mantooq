@@ -1,0 +1,45 @@
+{
+  "name": "zain4picker/mantooq",
+  "description": "Laravel package to handel ANY thing 🥳 about our Amazing 💝 Arabic Numbers Functions { كل ما يهم محبي لارافيل واستخدام الأرقام العربية مثل منطوق الأرقام والمبالغ المالية والعكس و عرض الأرقام بالعربية والعكس }",
+  "keywords": [
+    "Mantooq Numbers منطوق الأرقام",
+    "Mantooq Money منطوق المبالغ",
+    "Mantooq Money منطوق المبالغ المالية باللغة العربية الفصحى",
+    "Mantooq Numbers منطوق الأرقام باللغة العربية الفصحى",
+    "Number From String إستخراج الأرقام من اللغة العربية",
+    "Middleware حل مشكلة استقبال المدخلات للأرقام العربية بإستخدام",
+    "Show Arabic Numbers عرض الأرقام العربية بدل الإنجليزية",
+    "Arabic Indic Digits تحويل الأرقام الهندية إلى الأرقام العربية الشرقية والعكس ليفهمها لارافيل",
+    "laravel arabic indic digits",
+    "laravel arabic numbers",
+    "الأرقام العربية"
+  ],
+  "homepage": "https://picker.sd",
+  "license": "MIT",
+  "authors": [
+		{
+		"name": "Zainalabdeen Radwan",
+		"email": "contact@picker.sd"
+		}
+	],
+  "autoload": {
+      "psr-4": {
+          "Picker\\ArabicNumbers\\": "src/"
+      }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Picker\\ArabicNumbers\\rabicNumbersServiceProvider"
+      ],
+      "aliases": {
+        "Numbers": "Picker\\ArabicNumbers\\Numbers"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
