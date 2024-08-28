@@ -7,7 +7,7 @@ use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
-class rabicNumbersServiceProvider extends ServiceProvider
+class ArabicNumbersServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

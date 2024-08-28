@@ -1,18 +1,18 @@
 # Laravel Arabic Numbers
 Laravel package to handel ANY THING about our Amazing 💝 Arabic Numbers Functions { كل ما يهم محبي لارافيل واستخدام الأرقام العربية مثل منطوق الأرقام والمبالغ المالية والعكس و عرض الأرقام بالعربية والعكس }
 
-![Packagist License](https://img.shields.io/packagist/l/alkoumi/laravel-arabic-numbers) ![Packagist Version](https://img.shields.io/packagist/v/alkoumi/laravel-arabic-numbers) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/alkoumi/laravel-arabic-numbers?color=red)  [![Total Downloads](https://poser.pugx.org/alkoumi/laravel-arabic-numbers/downloads)](//packagist.org/packages/alkoumi/laravel-arabic-numbers) ![Packagist Stars](https://img.shields.io/packagist/stars/alkoumi/laravel-arabic-numbers?color=yellow)
+![Packagist License](https://img.shields.io/packagist/l/zain4picker/mantooq) ![Packagist Version](https://img.shields.io/packagist/v/zain4picker/mantooq) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/zain4picker/mantooq?color=red)  [![Total Downloads](https://poser.pugx.org/zain4picker/mantooq/downloads)](//packagist.org/packages/zain4picker/mantooq) ![Packagist Stars](https://img.shields.io/packagist/stars/zain4picker/mantooq?color=yellow)
 ## كل ما يهم محبي لارافيل واستخدام الأرقام العربية مثل منطوق الأرقام والمبالغ المالية والعكس و عرض الأرقام بالعربية والعكس 
 ## Installation for all Laravel Versions 🥳
 1- You can install the package via composer:
 
-    composer require alkoumi/laravel-arabic-numbers
+    composer require zain4picker/mantooq
 
 2- You must register the service provider in your `config/app.php` file:
 
     'providers' => [
         // ...
-        Picker\ArabicNumbers\rabicNumbersServiceProvider::class,
+        Picker\ArabicNumbers\ArabicNumbersServiceProvider::class,
     ];
 
 3- You must register the Middleware in your `App\Http\Kernel` file:
