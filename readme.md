@@ -111,4 +111,3 @@ You can simply Show Any Value in Arabic Digits Or English Digits
 
     // RESULT {تاريخ اليوم : ٢٢-١٠-٢٠٢٠}
 ```
-#### Give Me 💗 Cup of ☕️ Coffee here https://patreon.com/mohammadelkoumi
