@@ -1,7 +1,12 @@
+<div align="center"> 
+  <a href="https://picker.sd"> 
+    <img src="https://picker.sd/zain4picker-cover.svg" alt="Logo"> 
+  </a>
+  <h1 align="center">MANTOOQ Arabic numbers Spelling</h1>
+</div>
 # Laravel Arabic Numbers
-Laravel package to handel ANY THING about our Amazing 💝 Arabic Numbers Functions { كل ما يهم محبي لارافيل واستخدام الأرقام العربية مثل منطوق الأرقام والمبالغ المالية والعكس و عرض الأرقام بالعربية والعكس }
+Laravel package to handel ANY THING about our Amazing 💝 Arabic Numbers Functions
 
-![Packagist License](https://img.shields.io/packagist/l/zain4picker/mantooq) ![Packagist Version](https://img.shields.io/packagist/v/zain4picker/mantooq) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/zain4picker/mantooq?color=red)  [![Total Downloads](https://poser.pugx.org/zain4picker/mantooq/downloads)](//packagist.org/packages/zain4picker/mantooq) ![Packagist Stars](https://img.shields.io/packagist/stars/zain4picker/mantooq?color=yellow)
 ## كل ما يهم محبي لارافيل واستخدام الأرقام العربية مثل منطوق الأرقام والمبالغ المالية والعكس و عرض الأرقام بالعربية والعكس 
 ## Installation for all Laravel Versions 🥳
 1- You can install the package via composer:
